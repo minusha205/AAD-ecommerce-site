@@ -46,7 +46,6 @@ public class LoginServlet extends HttpServlet {
 
                         // Check if password matches and the user is active
                         if (storedPassword.equals(userDTO.getPassword())) {  // If passwords are stored in plaintext
-//                            if ("Active".equalsIgnoreCase(status)) {
                                 userDTO.setName(resultSet.getString("username"));
                                 userDTO.setRole(role);
                                 req.getSession().setAttribute("user", userDTO);
@@ -57,10 +56,6 @@ public class LoginServlet extends HttpServlet {
                                     req.setAttribute("message", "Login Success! Welcome, Customer.");
                                     req.getRequestDispatcher("home.jsp").forward(req, resp);
                                 }
-//                            } else {
-//                                req.setAttribute("message", "Login Failed! Your account is not active.");
-//                                req.getRequestDispatcher("index.jsp").forward(req, resp);
-//                            }
                         } else {
                             req.setAttribute("message", "Login Failed! Incorrect password.");
                             req.getRequestDispatcher("index.jsp").forward(req, resp);

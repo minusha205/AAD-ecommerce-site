@@ -97,7 +97,7 @@ public class CategoryServlet extends HttpServlet {
                 } else {
                     req.setAttribute("error", "Failed to delete the category.");
                     req.getSession().setAttribute("alertType", "error");
-                }
+}
                 resp.sendRedirect("adminCategories.jsp");
             }
         } catch (NumberFormatException e) {

@@ -1,9 +1,9 @@
 /* fonts import */
-@import url("../fonts/octin_sports_rg.ttf");
+/*@import url("../fonts/octin_sports_rg.ttf");*/
 body {
     font-family: "Poppins", sans-serif;
-    color: #0c0c0c;
-    background-color: #ffffff;
+    color: #ffffff;
+    background-color: #0c0c0c;
     overflow-x: hidden;
 }
 
@@ -266,33 +266,33 @@ a:focus {
 .slider_section .detail-box .btn-box .btn1 {
     display: inline-block;
     padding: 10px 15px;
-    background-color: #f89646;
+    background-color: #F89646FF;
     color: #ffffff;
     border-radius: 0;
-    border: 1px solid #f89646;
+    border: 1px solid #F89646FF;
     -webkit-transition: all .2s;
     transition: all .2s;
 }
 
 .slider_section .detail-box .btn-box .btn1:hover {
     background-color: transparent;
-    color: #f89646;
+    color: #F89646FF;
 }
 
 .slider_section .detail-box .btn-box .btn2 {
     display: inline-block;
     padding: 10px 15px;
-    background-color: #6bb7be;
+    background-color: #A86BBEFF;
     color: #ffffff;
     border-radius: 0;
-    border: 1px solid #6bb7be;
+    border: 1px solid #A86BBEFF;
     -webkit-transition: all .2s;
     transition: all .2s;
 }
 
 .slider_section .detail-box .btn-box .btn2:hover {
     background-color: transparent;
-    color: #6bb7be;
+    color: #A86BBEFF;
 }
 
 .slider_section .img-box img {
@@ -312,7 +312,7 @@ a:focus {
 }
 
 .slider_section .carousel-indicators li {
-    background-color: #6bb7be;
+    background-color: #A86BBEFF;
     width: 12px;
     height: 12px;
     border-radius: 100%;
@@ -322,7 +322,7 @@ a:focus {
 .slider_section .carousel-indicators li.active {
     width: 17px;
     height: 17px;
-    background-color: #f89646;
+    background-color: #F89646FF;
 }
 
 .furniture_section .box {
